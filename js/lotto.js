@@ -1,5 +1,5 @@
 
-console.log("lotto...................")
+/*console.log("lotto...................")
 console.log("lotto...................")
 console.log("lotto...................")
 console.log("lotto...................")
@@ -32,7 +32,7 @@ btn.addEventListener("click",(event) => {
     }
 
 
-}, false)
+}, false)*/
 
 
 function makeLottoNum(){
