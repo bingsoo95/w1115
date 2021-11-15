@@ -59,9 +59,24 @@
 
             <button class="btn btn-primary" id="btn">CLICK</button>
 
-            <div id="resultDiv">
+            <style>
+                #resultDiv {
+                    display: flex;
+                }
+                #resultDiv > h3 {
+                    background-color: #31d2f2;
+                    color : white;
+                    margin: 10px;
+                    padding: 20px;
+                    border-radius: 40px;
+                    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+                    min-width: 70px;
+                    text-align: center;
 
-            </div>
+                }
+            </style>
+
+            <div id ="resultDiv">
 
 
         </div>
@@ -74,6 +89,23 @@
 
 
 <script src="js/lotto.js"></script>
+
+<script>
+
+    console.log("...........")
+    console.log(btn)
+
+    btn.addEventListener("click", function(){
+        console.log("------------111111")
+        console.log("------------111111")
+        console.log("------------111111")
+        console.log("------------111111")
+    }, false)
+
+
+</script>
+
+
 
 </body>
 </html>
